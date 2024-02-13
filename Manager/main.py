@@ -8,7 +8,7 @@ def cambiar_nombres_carpeta(ruta_carpeta):
         nombre, formato = os.path.splitext(nombre_archivo)
 
         ruta_antiguo = os.path.join(ruta_carpeta, nombre_archivo)
-        nombre_nuevo = f"{formato}_{contador}{formato}"
+        nombre_nuevo = f"{formato[1:]}_{contador}{formato}"
         ruta_nuevo = os.path.join(ruta_carpeta, nombre_nuevo)
 
         os.rename(ruta_antiguo, ruta_nuevo)
