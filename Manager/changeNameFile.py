@@ -44,7 +44,7 @@ def cambiar_nombres_carpeta(ruta_carpeta, ruta_contador):
 
 # Rutas
 ruta_carpeta = "D:\\AllSubCarpetas"
-ruta_contador = "C:\\Users\\carlo\\Documents\\dev\\Bloky\\Temp\\contador.txt"
+ruta_contador = "C:\\Users\\carlo\\Documents\\dev\\Bloky\\Manager\\contador.txt" # ahcer ruta dinamica futuro
 
 # Funcion principal
 cambiar_nombres_carpeta(ruta_carpeta, ruta_contador)
